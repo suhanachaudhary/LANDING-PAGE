@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Noto Sans Display', sans-serif;
+}
+.main img{
+    background-size: cover;
+    height: 100vh;
+    width:100vw;
+} 
+span{
+    color:white;
+    margin: 20px;
+    padding:20px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    top:20px;
+    position: absolute;
+    letter-spacing: 1px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top:10px;
+    height: 50px;
+    width:100%;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    align-content: center;
+    color: white;
+    padding: 20px;
+    font-size: 1rem;
+    font-weight: 400;
+    transition: 0s ease-in 1s;
+}
+.navbar:hover{
+    font-size: 1.3rem;
+    background-color:pink;
+}
+.navbar ul li:hover{
+    color: rgb(3, 3, 44);
+}
+.icon{
+    display: flex;
+    justify-content:end;
+    position: absolute;
+    top:10px;
+    height: 50px;
+    width:100%;
+}
+.icon li i{
+    color: white;
+    margin-right: 20px;
+    font-size: 1.5rem;
+}
+.icon li i:hover{
+    font-size: 1.7rem;
+    transition: 0s ease-in 1sec;
+    position:sticky;
+}
+h1{
+    color:white;
+    letter-spacing: 1px;
+    font-size: 3.5rem;
+    font-weight: 900;
+    position: absolute;
+    top:120px;
+    margin-left: 45%;
+}
+.player{
+    top:250px;
+    position: absolute;
+    justify-content: center;
+    margin-left:47%;
+}
+.player i{
+    color: white;
+    font-size: 5rem;
+    font-weight: 900;
+}
+.player i:hover{
+    font-size:5.2rem ;
+}
+p{
+    position:absolute;
+    margin-left: 39%;
+    top:400px;
+    color: white;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.form{
+    position: absolute;
+    top:470px;
+    height: 100px;
+    width: 400px;
+    margin-left:360px;
+    display: flex;
+}
+.form input{
+    height:50px;
+    margin:5px;
+    display: inline-block;
+    width: 230px;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+
+}
+.form input:hover{
+    background-color: skyblue;
+}
+#str{
+    background-color:rgb(53,89,224);
+}
